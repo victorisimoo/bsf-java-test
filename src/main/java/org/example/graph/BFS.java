@@ -14,6 +14,7 @@ public class BFS {
         while(!queue.isEmpty()){ //1. Verificar si se pudo continuar
             currentNode = queue.remove();
             //2. Verifico si se encuentra en la meta
+            System.out.println(currentNode.getValue() + "");
             if(currentNode.getValue().equals(value)){
                 return Optional.of(currentNode);
 

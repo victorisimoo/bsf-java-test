@@ -46,7 +46,7 @@ public class App
         zona1.connect(zona5);
         zona1.connect(zona2);
 
-        BFS.search(4, zona12);
+        BFS.search(15, zona10);
 
         // Dar la ruta final
         // Convertirlo de BFS a DFS
