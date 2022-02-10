@@ -4,11 +4,10 @@ import org.example.graph.BFS;
 import org.example.graph.Node;
 
 /**
- * Hello world!
+ * @author VICTORNOEHERNANDEZME
  *
  */
-public class App 
-{
+public class App  {
     public static void main( String[] args )  {
 
         var zona1 = new Node<Integer>(1);
@@ -47,8 +46,9 @@ public class App
         zona1.connect(zona2);
 
         BFS.search(4, zona12);
+        System.out.println(BFS.path.toString());
 
-        // Dar la ruta final
+        // Dar la ruta final -> Solucionado mi pana
         // Convertirlo de BFS a DFS
 
     }
