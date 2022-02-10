@@ -47,9 +47,19 @@ public class App
         zona1.connect(zona2);
 
         BFS.search(15, zona10);
+/*
+        var nodeThree = new Node<Integer>(3);
+        var nodeTwo = new Node<Integer>(2);
+        var nodeTen = new Node<Integer>(10);
+        var nodeFour = new Node<Integer>(4);
 
+        nodeThree.connect(nodeTwo);
+        nodeTwo.connect(nodeTen);
+        nodeTen.connect(nodeFour);
+
+        BFS.search(10,nodeThree);
         // Dar la ruta final
-        // Convertirlo de BFS a DFS
+        // Convertirlo de BFS a DFS*/
 
     }
 }
